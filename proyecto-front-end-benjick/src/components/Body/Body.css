@@ -1,0 +1,131 @@
+*{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.body__landing{
+	background-color: white;
+	width: 100%;
+	height: auto;
+	max-width: 1280px;
+	position: static;
+}
+
+.body__display{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background: url(./landing-splash-bg.png);
+    background-repeat: no-repeat;
+    background-size: 1300px auto;
+}
+
+#landing__image{
+	width: 1271px;
+}
+
+.text__uno{
+	color: white;
+	background-color:rgba(0,0,0,0.0);
+	font-family: "Times New Roman", Times, serif;
+	margin: 0;
+	font-weight: 600;
+}
+
+.text__uno__dos{
+	color: white;
+
+	background-color:rgba(0,0,0,0.0);
+	font-family: "Times New Roman", Times, serif;
+	margin-bottom: 20px;
+	font-size: 50px;
+}
+
+.body__featured{
+	background-color: white;
+	/*border:1px solid lightgray;*/
+	color: black;
+	font-family: "Times New Roman", Times, serif;
+	height: 91px;
+	margin-bottom: 0px;
+}
+
+.featured{
+	margin: 10px 0px 10px 20px;
+	color: black;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 40px;
+
+}
+
+.featured__uno{
+	margin: 0;
+	margin-left: 20px;
+	color: darkslategrey;
+}
+
+.packer{
+/*	border:1px solid lightblue;*/
+	border-radius: 5px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+	align-content: flex-start;
+}
+
+.block{
+	border:1px solid gray;
+	border-radius: 5px;
+	margin: 15px;
+	width: 390px;
+	height: 390px;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	justify-content: flex-end;
+	box-shadow: 10px 10px 5px grey;
+
+}
+
+.text__block{
+	margin: 0;
+	margin-left: 20px;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.text__block__gray{
+	margin: 0;
+	margin-left: 20px;
+	color: gray;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.url__api{
+	margin-left: 20px;
+	width: 330px;
+	height: 330px;
+	max-width: 330px;
+	max-height: 330px;
+
+}
+
+.block__image{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+
+}
+
+
+
+
+
+
+

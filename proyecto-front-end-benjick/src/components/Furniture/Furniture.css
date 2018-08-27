@@ -1,0 +1,191 @@
+
+.body__sales{
+	width: 100%;
+	max-width: 1280px;
+	height: auto;
+}
+
+
+.miscellaneous{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background: url(./category-miscellaneous.png);
+    background-repeat: no-repeat;
+    background-size: 1300px auto;
+
+}
+
+.bedroom{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background: url(./category-bedroom.png);
+    background-repeat: no-repeat;
+    background-size: 1300px auto;
+
+}
+
+.tables{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background: url(./category-tables.png);
+    background-repeat: no-repeat;
+    background-size: 1300px auto;
+
+}
+
+.desks{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background: url(./category-desks.png);
+    background-repeat: no-repeat;
+    background-size: 1300px auto;
+
+}
+
+.seating{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background: url(./category-seating.png);
+    background-repeat: no-repeat;
+    background-size: 1300px auto;
+
+}
+ 
+.storage{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background: url(./category-storage.png);
+    background-repeat: no-repeat;
+    background-size: 1300px auto;
+
+}
+
+.space{
+	width: 100%;
+	max-width:1280px;
+	height: 200px;
+
+}
+
+.body__featured__allproducts{
+	background-color: white;
+/*	border:1px solid lightgray;*/
+	color: black;
+	font-family: "Times New Roman", Times, serif;
+	height: 91px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
+
+.body__featured__all{
+	margin-left: 20px;
+	background-color: white;
+	/*border:1px solid lightgray;*/
+	color: black;
+	font-family: "Times New Roman", Times, serif;
+	height: 81px;
+	margin-bottom: 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.featured__allproducts{
+	margin: 10px 0px 10px 20px;
+	color: black;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 40px;
+
+}
+
+
+.featured__uno__allproducts	{
+	margin: 0;
+	margin-left: 20px;
+	color: darkslategrey;
+
+}
+
+.body__products__all__x{
+	border:2px solid #F44336;
+	border-radius: 5px;
+	color: #F44336;
+	width: 100px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-right: 20px;
+	
+}
+
+.body__products__all__y{
+	border:2px solid gray;
+	border-radius: 5px;
+	color: gray;
+	width: 100px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-right: 20px;
+	
+}
+
+.yell{
+	color: yellow;
+	margin-right: 20px;	
+	padding: 0;
+	   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: gray;
+}
+
+.gray{
+	color: gray;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: gray;
+}
+
+.body__featured__all__yellow{
+	margin-left: 20px;
+	background-color: white;
+	/*border:1px solid lightgray;*/
+	color: black;
+	font-family: "Times New Roman", Times, serif;
+	height: 41px;
+	margin-bottom: 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: flex-end;
+
+}
+

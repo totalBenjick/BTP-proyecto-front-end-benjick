@@ -1,0 +1,131 @@
+
+.footer{
+	width: 100%;
+	max-width: 1271px;
+}
+
+.body__red{
+	/*border:1px solid pink;*/
+	width: 100%;
+	height:200px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 20px;
+
+}
+
+.body__products{
+	border:2px solid #F44336;
+	border-radius: 5px;
+	color: #F44336;
+	width: 250px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.body__featured__uno{
+	background-color: white;
+	/*border:1px solid lightgray;*/
+	color: black;
+	font-family: "Times New Roman", Times, serif;
+	height: 91px;
+	margin-bottom: 10px;
+}
+
+.body__blue{
+	/*border:1px solid lightblue;*/
+	width: 100%;
+	height:200px;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+
+}
+
+.body__furniture{
+	border:2px solid #2196F3;
+	border-radius: 5px;
+	color: #2196F3;
+	width: 250px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	margin:20px;
+}
+
+.body__featured__uno__mf{
+	background-color: red;
+	/*border:1px solid lightgray;*/
+	color: black;
+	font-family: "Times New Roman", Times, serif;
+	height: 91px;
+	margin-bottom: 10px;
+	background: url(./mf-logo-black.svg);
+	background-repeat: no-repeat;
+    background-size: 90px auto;
+    background-position: center; 
+
+}
+
+.body__featured__uno__social{
+	background-color: white;
+	/*border:1px solid lightgray;*/
+	color: black;
+	font-family: "Times New Roman", Times, serif;
+	height: 191px;
+	margin-bottom: 10px;
+}
+
+
+.footer-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-hr {
+  width: 20px;
+  margin: 20px auto;
+  color: #999999;
+}
+
+.footer-section-title {
+  color: #F44336;
+}
+
+.footer-link-decoration {
+  text-decoration: none;
+  color: black;
+}
+
+.grid {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 100px;
+	padding: 0;
+}
+.fa {
+	align-self: flex-start;
+}
+
+li{
+	list-style-type: none;
+	padding: 10px;
+}
